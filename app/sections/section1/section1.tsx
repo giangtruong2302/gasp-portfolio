@@ -1,13 +1,10 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import styles from "./section1.module.scss";
-import useIsomorphicLayoutEffect from "@/app/helpers/isomorphicEffect";
 
-import { FaGithub } from "react-icons/fa6";
 import { gsap } from "@/app/lib/gsap";
 import { signal } from "@preact/signals-core";
-// import { effect, signal } from "@preact/signals-react";
-import { EASE2, customEaseIn } from "@/app/lib/gsap";
+import { customEaseIn } from "@/app/lib/gsap";
 import { motion } from "framer-motion";
 import PictureFrame from "@/app/components/pictureFrame/PictureFrame";
 import Section1A from "../section1A/section1A";
@@ -175,39 +172,39 @@ function Section1() {
             <div className={`${styles.title_row} ${styles.title_row_1}`}>
               <div className={styles.title_charts_cont} id="ry">
                 <span className={rockitFont.className} ref={ry}>
-                  IYANU
+                  Dy
                 </span>
               </div>
               <div className={styles.title_charts_cont} id="fo">
                 <span className={rockitFont.className} ref={fo}>
-                  OL
+                  no&nbsp;
                 </span>
               </div>
               <div className={styles.title_charts_cont} id="ssil">
                 <span className={rockitFont.className} ref={ssil}>
-                  UWA
+                  Duong
                 </span>
               </div>
             </div>
             <div className={`${styles.title_row} ${styles.title_row_2}`}>
               <div className={styles.title_charts_cont} id="tells">
                 <span className={rockitFont.className} ref={tells}>
-                  FA
+                  GI
                 </span>
               </div>
               <div className={styles.title_charts_cont} id="a">
                 <span className={rockitFont.className} ref={a}>
-                  N
+                  A
                 </span>
               </div>
               <div className={styles.title_charts_cont} id="st">
                 <span className={rockitFont.className} ref={st}>
-                  OR
+                  N
                 </span>
               </div>
               <div className={styles.title_charts_cont} id="ory">
                 <span className={rockitFont.className} ref={ory}>
-                  O
+                  G
                 </span>
               </div>
             </div>
