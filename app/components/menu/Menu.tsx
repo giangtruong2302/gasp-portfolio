@@ -114,7 +114,7 @@ function Menu() {
                   className="linkz-box"
                   ref={(e: never) => link_box.current.push(e) as any}
                 >
-                  <a href="#">STILL</a>
+                  <a href="#">Home</a>
                 </div>
               </li>
               <li className="linkz">
@@ -122,7 +122,7 @@ function Menu() {
                   className="linkz-box"
                   ref={(e: never) => link_box.current.push(e) as any}
                 >
-                  <a href="#">NOT</a>
+                  <a href="#">About</a>
                 </div>
               </li>
               <li className="linkz">
@@ -130,7 +130,7 @@ function Menu() {
                   className="linkz-box"
                   ref={(e: never) => link_box.current.push(e) as any}
                 >
-                  <a href="#">DONE</a>
+                  <a href="#">Project</a>
                 </div>
               </li>
               <li className="linkz">
@@ -138,17 +138,17 @@ function Menu() {
                   className="linkz-box"
                   ref={(e: never) => link_box.current.push(e) as any}
                 >
-                  <a href="#">YET</a>
+                  <a href="#">Contact</a>
                 </div>
               </li>
-              <li className="linkz">
+              {/* <li className="linkz">
                 <div
                   className="linkz-box"
                   ref={(e: never) => link_box.current.push(e) as any}
                 >
                   <a href="#">SOON...</a>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
         </section>
