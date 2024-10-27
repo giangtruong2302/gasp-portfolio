@@ -210,7 +210,7 @@ function Home() {
         <div ref={componentRef} className={styles.sections}>
           <div className={styles.animations} ref={animationsRef}>
             <div className={styles.animation1}>
-              <div className={styles.title}>iycodes©</div>
+              <div className={styles.title}>Dyno Duong</div>
               <div ref={whiteBall} className={styles.ball}></div>
               <div ref={blackBall} className={styles.blackBall}></div>
               <div className={styles.line} ref={lineRef}></div>
@@ -274,8 +274,12 @@ export const Iycodes = () => {
   });
   return (
     <span className={styles.iycodes} ref={iycodes}>
-      <span className={`${iceFont.className} ${styles.a}`}>IYANUOLUWA</span>
-      <span className={`${iceFont.className} ${styles.b}`}>IYANUOLUWA</span>
+      <span className={`${iceFont.className} ${styles.a}`}>
+        Software Engineering
+      </span>
+      <span className={`${iceFont.className} ${styles.b}`}>
+        Frontend Developer
+      </span>
     </span>
   );
 };
@@ -295,7 +299,7 @@ export const Iycodes2 = () => {
 
   return (
     <div className={`${styles.iycodes2} ${iceFont.className}`} ref={iycodes2}>
-      FANORO
+      Dyno Duong
     </div>
   );
 };

@@ -6,7 +6,7 @@ function Loading() {
   return (
     <div>
       <div className={styles.section}>
-        <div className={styles.title}>iycodes©</div>
+        <div className={styles.title}>Dyno Duong</div>
         <div className={styles.box}>
           <div className={styles.ball}> </div>
           <div className={styles.line}></div>
@@ -18,7 +18,7 @@ function Loading() {
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <title>添加</title>
+            <title>Dyno</title>
             <defs>
               <linearGradient
                 x1="0%"
